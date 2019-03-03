@@ -1,0 +1,86 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13991057096,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": "login;login-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 282785952,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 435467850,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is in login page",
+            "match": {
+              "location": "loginpage.user_is_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5175553,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter invalid email and password",
+            "match": {
+              "location": "loginpage.enter_invalid_email_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1649510,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Error message appear",
+            "match": {
+              "location": "loginpage.error_message_appear()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "/Users/Paru/Desktop/API/JenkinTest/features/login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Fun"
+      }
+    ]
+  }
+]
